@@ -33,7 +33,7 @@ public class Main {
 						money = money - item1.getFruitprice();
 						count++;
 					}
-					if (cnt - 1 >= item1.getQuantity())
+					if (counnt - 1 >= item1.getQuantity())
 						System.out.println("Maximum " + item1.getFruitname() + " we can buy: " + item1.getQuantity());
 					else
 						System.out.println("Maximum " + item1.getFruitname() + " we can buy: " + (count - 1));
