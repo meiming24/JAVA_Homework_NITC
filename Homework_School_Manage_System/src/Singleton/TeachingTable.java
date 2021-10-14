@@ -17,7 +17,7 @@ public class TeachingTable {
 		return teachingtable;
 	}
 	
-	static public boolean addBangLichDay(TeachingSchedule teachingschedule) {
+	static public boolean addTeachingTable(TeachingSchedule teachingschedule) {
 		teachingtable.add(teachingschedule);
 		return true;
 	}

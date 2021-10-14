@@ -22,7 +22,7 @@ public class StudySchedule {
 		return time;
 	}
 	
-	public Room getPhongHoc() {
+	public Room getRoom() {
 		return room;
 	}
 }

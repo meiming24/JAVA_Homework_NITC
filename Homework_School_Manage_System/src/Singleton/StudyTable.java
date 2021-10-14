@@ -24,7 +24,7 @@ public class StudyTable {
 	
 	static public boolean isValid(int time, int room) {
 		for (StudySchedule i : studytable){
-			if(i.getTime() == Time.getTime(time) && i.getPhongHoc() == Room.getRoom(room)){
+			if(i.getTime() == Time.getTime(time) && i.getRoom() == Room.getRoom(room)){
 				return true;
 			}
 		}
