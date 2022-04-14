@@ -1,4 +1,4 @@
-# JAVA_Homework_NITC
+# JAVA_NITC
 
 Full name: Mei Ving Ming
 
